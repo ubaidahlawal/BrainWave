@@ -1,0 +1,112 @@
+.our-story h2 {
+    font-family: 'Gilroy' sans-serif;
+    font-weight: 700;
+    font-size: 2.2remx;
+    line-height: 1.35;
+    max-width: 520px; 
+    color: #161C2D;
+}
+
+.p-story {
+    line-height: 1.7;
+    font-family: "Gilroy" sans-serif;
+    color: #161C2D;
+    font-size: 17px;
+    font-weight: 400;
+    max-width: 390px;
+    opacity: 75%;
+}
+.stats-h3 {
+    font-family: "Gilroy" sans-serif;
+    color: #161C2D;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.stats-p {
+    font-family: "Gilroy" sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 2rem;
+    /* opacity: 65%; */
+    color: #161C2D;
+}
+
+.second-img{
+    position: relative; 
+}
+
+.top-image {
+    position: absolute;
+    top: 1990px;
+    left: 775px;
+}
+
+@media (max-width: 768px) { 
+    .our-story h2{
+
+      text-align: center;
+      font-size: 16px;
+     
+    }
+    .sm-story{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .stats-p {
+        font-size: 21px;
+        text-align: center;
+    }
+}
+
+/* .top-image{
+   position: absolute;
+   top: 81.4%;
+   left: 54.5%;
+   width: 22.1%;
+   height: 11.1%;
+
+} */
+
+
+/* .top-image {
+
+  position: absolute;
+  top: 60%;
+  left: 77%;
+  width: 15%;
+  z-index: -10000;
+} */
+
+/* .second-img {
+    position: absolute;
+    top: 60%;
+    left: 77%;
+    width: 15%;
+    z-index: -10000;
+} */
+
+/* .top-image {
+    position: absolute;
+    top: 2397px;
+    left: 1047px;
+    width: 107px;
+    height: 109px;
+} */
+/* 
+.second-img {
+    position: absolute;
+  top: 60%;
+  left: 77%;
+  width: 15%;
+  z-index: -10000;
+} */
+
+
+/* .stats-p {
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 32px;
+    justify-content: center;
+} */

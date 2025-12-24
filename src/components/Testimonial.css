@@ -1,0 +1,50 @@
+.testimonial-text {
+    font-size: 24px;
+    font-weight:700;
+    font-family:"Gilroy" sans-serif;
+    color: #161C2D;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+.testimonial-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.stars {
+  font-size: 18px;
+}
+
+.name-role {
+    font-size: 17px;
+    font-weight: 400;
+   font-family:  "Gilroy" sans-serif;
+   color: #161C2D;
+}
+
+
+hr {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .t-content {
+        text-align: center;
+    }
+    .testimonial-text {
+        font-size: 12px;
+        margin: 0 auto;
+    }
+    .name-role {
+        font-size: 10px;
+    }
+    .testimonial {
+        width: 95% !important;
+    }
+    .hr {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
