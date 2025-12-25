@@ -1,0 +1,61 @@
+.cs-p {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.cs-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.cs-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.cs-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cs-card:last-child {
+    margin-top: -160px;
+}
+
+.cs-category {
+    color: #161C2D;
+    margin-top: 12px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cs-card h4 {
+
+    font-size: 24px;
+    margin-top: 6px;
+}
+
+.cs-link {
+   color: #473BF0;
+}
+
+@media (max-width: 768px) {
+    .cs-grid {
+        grid-template-columns: 1fr;
+    }
+    .cs-card:last-child{
+      margin-top: 40px;
+    }
+    .cs-item, .cs-category {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cs-title {
+        font-size: 17px;
+    }
+}

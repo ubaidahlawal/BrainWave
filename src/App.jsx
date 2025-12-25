@@ -4,6 +4,9 @@ import HeroWrapper from "./components/HeroWrapper";
 import TestimonialSection from "./components/TestimonialSection";
 import OurStory from "./components/OurStory";
 import WhyChooseUs from "./components/WhyChooseUs";
+import CaseStudies from "./components/CaseStudies";
+import Review from "./components/Review"
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
     <TestimonialSection/>
     <OurStory/>
     <WhyChooseUs/>
+    <CaseStudies/>
+    <Review/>
+    <Footer/>
     </>
   );
 }

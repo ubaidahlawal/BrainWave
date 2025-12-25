@@ -1,0 +1,58 @@
+.footer {
+    background-color: #161C2D;
+}
+
+.cta-btn {
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #473BF0;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+
+.cta-p {
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    font-size: 19px;
+    opacity: 70%;
+}
+
+.cta-text {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.footer ul li {
+    margin-bottom: 1.2rem;
+}
+
+.footer-p {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+
+    .cta-p {
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .social-icon {
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .cta-btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8rem;
+        display: block;
+        margin: 2rem auto 0;
+        
+    }
+};
