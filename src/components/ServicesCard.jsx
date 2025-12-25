@@ -8,7 +8,7 @@ const ServiceCard = ({image, title, description, isRed, imageUnder}) => {
         Learn more <i className="bi bi-arrow-right ms-4"></i>
        </a>
        {isRed && imageUnder && (
-        <img src={imageUnder} alt="image" className="img-under" />
+        <img src={imageUnder} alt="image" className="img-under" loading="lazy" />
        )}
        </div>
     );

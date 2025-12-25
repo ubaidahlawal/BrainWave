@@ -43,7 +43,7 @@
         gap: 1.5rem;
     }
     .service-wrapper {
-        width: 90%;
+        width: 95%;
         max-width: unset;
     }
 }
@@ -130,5 +130,8 @@
 @media (max-width: 576px){
     .img-cards {
         min-width: 90%;
+    }
+    .service-wrapper {
+        width: 90%
     }
 }

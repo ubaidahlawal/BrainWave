@@ -13,19 +13,34 @@
     font-size: 15px;
     color: #161C2D;
 }
-x
-.navbar-brand {
-    margin-right: 2rem;
-}
+
 .nav-btn{
     background-color: #473BF0;
     color: white;
     font-size: 17px;
-    padding-bottom: 0.5rem;
+    padding-bottom: 12px 28px;
+    border-radius: 8px;
+    flex-shrink: 0;
 }
 
-/* @media (max-width: 576px) {
-    .navbar-brand {
-        margin-right: 2.5rem;
+.nav-flex {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-collapse {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar > .container {
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .nav-section {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
-} */
+}

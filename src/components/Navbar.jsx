@@ -3,10 +3,10 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <>
-    <div className="w-75 ms-auto">
-    <nav className="nav-section navbar navbar-expand-sm navbar-light">
-    <div className="container d-flex align-items-center justify-content-between">
-      <a className="navbar-brand fw-bold nav-logo me-3 me-sm-4" href="#">Brainwave.io</a>
+    <div className=" w-100">
+    <nav className="nav-section navbar navbar-expand-sm navbar-light container d-flex align-items-center">
+    <div className="container nav-flex">
+      <a className="navbar-brand fw-bold nav-logo" href="#">Brainwave.io</a>
       <button
         className="navbar-toggler d-lg-none"
         type="button"
@@ -19,7 +19,7 @@ function Navbar() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="collapsibleNavId">
-        <ul className="navbar-nav  mt-2 mt-lg-0 ms-auto">
+        <ul className="navbar-nav align-items-center gap-2 d-flex mt-sm-0 ms-3">
           <li className="nav-item nav-link">
             <a className="nav-link nav-list active" href="#" aria-current="page"> 
             Demos<span className="visually-hidden">(current)</span></a>
@@ -35,7 +35,7 @@ function Navbar() {
           </li>
         </ul>
 
-        <button className="btn px-5 rounded-4 ms-3 nav-btn" type="login">
+        <button className="btn mt-3 nav-btn  ms-auto" type="login">
         Get started a project
         </button>  
       </div>
