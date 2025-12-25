@@ -1,4 +1,5 @@
 import "./Hero.css";
+import HeroImg from "../assets/HeroImg.png";
 function Hero() {
    return (
     <>
@@ -16,7 +17,7 @@ function Hero() {
     <button className="btn custom-btn mt-3">Get started a project</button>
     </div>
     <div className="col-md-6 text-center">
-    <img src="/public/hero-image.png" alt="Hero" className="img-fluid hero-img"/>
+    <img src={HeroImg} alt="Hero" className="img-fluid hero-img"/>
     </div>
     </div>
     </div>
