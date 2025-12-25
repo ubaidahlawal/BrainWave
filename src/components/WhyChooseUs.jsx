@@ -20,7 +20,7 @@ const WhyChooseUs = () => {
       <div className="col-12 col-md-12 col-lg-5">
       <div className="row">
       <div className="col-3">
-      <img src={PurpleIcon} alt="wcu-icon" className="img-fluid w-100" />
+      <img src={PurpleIcon} alt="wcu-icon" className="img-fluid w-100"  loading="lazy" />
       </div>
       <div className="col-9">
       <h2 className="wcu-h2 mb-3">Dedicated project manager</h2>

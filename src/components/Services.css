@@ -127,3 +127,8 @@
    text-decoration: none;
 }
 
+@media (max-width: 576px){
+    .img-cards {
+        min-width: 90%;
+    }
+}

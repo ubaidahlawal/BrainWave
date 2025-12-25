@@ -1,8 +1,31 @@
-.nav-section .custom-btn {
+.nav-logo{
+    font-size: 24px;
+    letter-spacing: -0.13px;
+    color: #161C2D;
+    font-weight: 700;
+    font-family: "Gilroy", sans-serif;
+   }
+
+   .nav-list{
+    font-family: "Gilroy" sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+    font-size: 15px;
+    color: #161C2D;
+}
+x
+.navbar-brand {
+    margin-right: 2rem;
+}
+.nav-btn{
     background-color: #473BF0;
     color: white;
-    padding: 12px 28px;
-    border-radius: 8px;
-    font-weight: 700;
     font-size: 17px;
+    padding-bottom: 0.5rem;
 }
+
+/* @media (max-width: 576px) {
+    .navbar-brand {
+        margin-right: 2.5rem;
+    }
+} */
